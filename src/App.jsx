@@ -8,6 +8,8 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfiilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
 
@@ -38,6 +40,8 @@ function App() {
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null}
       <ButtonClick/>
       <ProfilePicture/>
+      <MyComponent/>
+      <Counter/>
       <Footer/>
     </>
   );

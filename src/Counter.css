@@ -1,0 +1,33 @@
+.Counter {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    font-family: Calibri, arial;
+}
+
+.counterDisplay {
+    text-align: center;
+    font-size: 380%;
+    padding: 10px;
+}
+
+.CounterButtonDiv {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.CounterButtonDiv button {
+    background-color: rgb(10, 215, 215);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.CounterButtonDiv button:hover {
+    background-color: rgb(4, 137, 137);
+    color: rgb(189, 189, 189);
+}
