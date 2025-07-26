@@ -10,6 +10,7 @@ import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfiilePicture.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
+import Form from './Form.jsx'
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <ProfilePicture/>
       <MyComponent/>
       <Counter/>
+      <Form/>
       <Footer/>
     </>
   );
