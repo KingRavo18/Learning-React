@@ -9,7 +9,7 @@ import List from './List.jsx'
 import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfiilePicture.jsx'
 import MyComponent from './MyComponent.jsx'
-import Counter from './Counter.jsx'
+import Counter from './Counter/Counter.jsx'
 import Form from './Form.jsx'
 
 function App() {
