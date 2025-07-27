@@ -8,7 +8,8 @@ export default function Array_State() {
         const newFood = document.getElementById("foodInput").value;
         document.getElementById("foodInput").value = "";
         //setFoods([newFood]); if this line is activated, the new value replaces every other value in the array
-        setFoods(f => [...f, newFood]);
+        
+        newFood && setFoods(f => [...f, newFood]);
     }
     // filter() = built-in array function 
     // if a parameter of a function is not used, use an _
