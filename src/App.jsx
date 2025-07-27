@@ -13,6 +13,7 @@ import Counter from './Counter/Counter.jsx'
 import Form from './Form.jsx'
 import ColorPicker from './Color Picker/ColorPicker.jsx'
 import Object_State from './objectState.jsx'
+import Array_State from './arrayState.jsx'
 
 function App() {
 
@@ -44,10 +45,16 @@ function App() {
       <ButtonClick/>
       <ProfilePicture/>
       <MyComponent/>
+      <hr/>
       <Counter/>
+      <hr/>
       <Form/>
+      <hr/>
       <ColorPicker/>
+      <hr/>
       <Object_State />
+      <hr/>
+      <Array_State />
       <Footer/>
     </>
   );
