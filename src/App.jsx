@@ -12,6 +12,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter/Counter.jsx'
 import Form from './Form.jsx'
 import ColorPicker from './Color Picker/ColorPicker.jsx'
+import Object_State from './objectState.jsx'
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
       <Counter/>
       <Form/>
       <ColorPicker/>
+      <Object_State />
       <Footer/>
     </>
   );
