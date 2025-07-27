@@ -1,0 +1,38 @@
+npm = node package manager
+cd = change directory
+
+If you close out of the program, to re-enter it, make sure you are in the correct directory, then "npm run dev"
+
+props = read-only properties that are shared between components.
+        A parent component can send data to a child component.
+        <Component key=value />
+
+propTypes = a mechanism that ensures that the passed value
+            is of the correct datatype.
+            age: PropTypes.number
+
+condittional rendering = allows you to control what gets rendered
+                         in your application based on certain conditions
+                         (show, hide or change components)
+
+variables that are declared with const can only be declared once
+
+click event = An interaction when a user clicks on a specific element.
+              We can respond to clicks by passing a callback to the onClick even handler
+
+React hook = Special function that allows functional components
+             to use React features without writing class components
+
+useState() = A react hook that allows the creation of a stateful variables
+             AND a setter function to update its value in the Virtual DOM.
+             [name, setName]
+
+onChange = event handler used primarily with form elements ex.
+        <input>, <textarea>, <select>, <radio>
+        Triggers a function every time the value of the input changes
+
+updater function = A function passed as an argument to setState() usually
+                   ex. setYear(year + 1) -> setYear(updater function)
+                   Allow for safe updates based on the previous state
+                   Used with multiple state updates and asynchronous functions
+                   Good practise to use updater functions
