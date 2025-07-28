@@ -15,7 +15,7 @@ import ColorPicker from './Color Picker/ColorPicker.jsx'
 import Object_State from './State/objectState.jsx'
 import Array_State from './State/arrayState.jsx'
 import Array_Objects from './State/arrayObjectsCannotComprehend.jsx'
-import ToDoList from './To-DO List/To-Do List.jsx'
+import ToDoList from './To-DO List/To-DoList.jsx'
 
 function App() {
 
