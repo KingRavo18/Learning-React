@@ -8,12 +8,13 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfiilePicture.jsx'
-import MyComponent from './MyComponent.jsx'
+import MyComponent from './State/MyComponent.jsx'
 import Counter from './Counter/Counter.jsx'
-import Form from './Form.jsx'
+import Form from './State/Form.jsx'
 import ColorPicker from './Color Picker/ColorPicker.jsx'
-import Object_State from './objectState.jsx'
-import Array_State from './arrayState.jsx'
+import Object_State from './State/objectState.jsx'
+import Array_State from './State/arrayState.jsx'
+import Array_Objects from './State/arrayObjectsCannotComprehend.jsx'
 
 function App() {
 
@@ -55,6 +56,8 @@ function App() {
       <Object_State />
       <hr/>
       <Array_State />
+      <hr/>
+      <Array_Objects />
       <Footer/>
     </>
   );
