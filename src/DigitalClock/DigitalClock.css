@@ -1,0 +1,15 @@
+.digital-clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    background-color: greenyellow;
+    backdrop-filter: blur(50px);
+}
+.clock {
+    color: white;
+    font-size: 3rem;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px black;
+}
