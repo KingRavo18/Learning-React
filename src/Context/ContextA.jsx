@@ -28,7 +28,7 @@ export default function ContextA() {
             <h1>ContextA</h1>
             <h2>{`Hello ${user}`}</h2>
             <UserContext.Provider value={user}>
-                <ContextB user={user}/>
+                <ContextB />
             </UserContext.Provider>
         </div>
     );
