@@ -16,6 +16,7 @@ import Object_State from './State/objectState.jsx'
 import Array_State from './State/arrayState.jsx'
 import Array_Objects from './State/arrayObjectsCannotComprehend.jsx'
 import ToDoList from './To-DO List/To-DoList.jsx'
+import UseEffect from './Effect/useEffect.jsx'
 
 function App() {
 
@@ -61,6 +62,8 @@ function App() {
       <Array_Objects />
       <hr />
       <ToDoList />
+      <hr />
+      <UseEffect />
       <Footer/>
     </>
   );
