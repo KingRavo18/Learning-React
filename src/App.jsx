@@ -18,6 +18,7 @@ import Array_Objects from './State/arrayObjectsCannotComprehend.jsx'
 import ToDoList from './To-DO List/To-DoList.jsx'
 import UseEffect from './Effect/useEffect.jsx'
 import DigitalClock from './DigitalClock/DigitalClock.jsx'
+import ContextA from './Context/ContextA.jsx'
 
 function App() {
 
@@ -67,6 +68,8 @@ function App() {
       <UseEffect />
       <hr />
       <DigitalClock />
+      <hr/>
+      <ContextA />
       <Footer/>
     </>
   );
