@@ -70,6 +70,7 @@ function App() {
       <DigitalClock />
       <hr/>
       <ContextA />
+      <hr/>
       <Footer/>
     </>
   );
