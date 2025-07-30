@@ -1,34 +1,33 @@
-.Counter {
-    width: 250px;
-    height: 250px;
-    border: 1px solid black;
-    font-family: Calibri, arial;
-    margin-bottom: 20px;
+.counter-container {
+    background: rgb(224, 224, 224);
+    width: 275px;
+    padding-top: 20px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.counterDisplay {
+.counter-container p {
+    margin: 20px;
     text-align: center;
-    font-size: 380%;
-    padding: 10px;
+    font-size: 5rem;
 }
-
-.CounterButtonDiv {
+.button-container {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
+    padding-bottom: 20px;
 }
 
-.CounterButtonDiv button {
-    background-color: rgb(10, 215, 215);
-    color: white;
+.button-container button{
+    background: rgb(0, 225, 255);
     border: none;
     padding: 5px 10px;
-    border-radius: 5px;
     cursor: pointer;
+    border-radius: 2px;
     transition: 0.5s;
 }
-
-.CounterButtonDiv button:hover {
-    background-color: rgb(4, 137, 137);
-    color: rgb(189, 189, 189);
+.button-container button:hover{
+    background: rgb(3, 159, 180);
+}
+.button-container button:active{
+    background: rgb(1, 84, 95);
 }

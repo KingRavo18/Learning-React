@@ -1,46 +1,26 @@
-import React, {useState} from "react";
 import "./Counter.css";
+import React, {useState} from "react";
 
 export default function Counter() {
 
     const [number, setNumber] = useState(0);
 
-    const DecrementNumber = () => {
-        setNumber(n => n - 1);
-        setNumber(n => n - 1);
-        setNumber(n => n - 1);
-    }
-
-    const ResetNumber = () => {
-        setNumber(0);
-    }
-
-    const IncrementNumber = () => {
-    
-        // Uses the CURRENT state to calculate the NEXT state.
-        // Set functions do not trigger an update
-        // React batches together state updates for performance reasons.
-        // NEXT state becomes the CURRENT state after an update.
-
-        // Takes the PENDING state to calculate NEXT state.
-        // React puts your updater function in a queue (waiting in line)
-        // During the next render, it will call them in the same order.
-
-        setNumber(n => n + 1);
-        setNumber(n => n + 1);
-        setNumber(n => n + 1);
-    }
+    const incrementNumber = () => setNumber(n => n + 1);
+    const decrementNumber = () => setNumber(n => n - 1);
+    const resetNumber = () => setNumber(0);
 
     return(
-        <div className="Counter">
-            <div className="counterDisplay">
-                <p>{number}</p>
-            </div>
-            <div className="CounterButtonDiv">
-                <button onClick={DecrementNumber}>Decrement</button>
-                <button onClick={ResetNumber}>Reset</button>
-                <button onClick={IncrementNumber}>Increment</button>
+        <div className="counter-container">
+            <p>{number}</p>
+            <div className="button-container">
+                <button onClick={decrementNumber}>Decrement</button>
+                <button onClick={resetNumber}>Reset</button>
+                <button onClick={incrementNumber}>Increment</button>
             </div>
         </div>
     );
 }
+//Allow users to choose how much to increment/decrement by:
+//Disable Decrement Below Zero (if desired)
+//Make the number turn green/red briefly when incremented/decremented, or animate the change with CSS transitions.
+//Allow ↑/↓ or +/– keys to increment/decrement.
