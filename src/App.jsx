@@ -20,6 +20,7 @@ import UseEffect from './Effect/useEffect.jsx'
 import DigitalClock from './DigitalClock/DigitalClock.jsx'
 import ContextA from './Context/ContextA.jsx'
 import RandomNumGenerator from './RandomNumGenerator.jsx'
+import Ref from './useRef.jsx'
 
 function App() {
 
@@ -73,6 +74,8 @@ function App() {
       <ContextA />
       <hr/>
       <RandomNumGenerator />
+      <hr />
+      <Ref />
       <Footer/>
     </>
   );
