@@ -5,14 +5,9 @@ export default function RandomNumGenerator(){
     const [maxNumber, setMaxNumber] = useState("");
     const [randomNumber, setRandomNumber] = useState("");
 
-    function getMinNumber(event){
-        setMinNumber(Number(event.target.value));
-    }
-
-    function getMaxNumber(event){
-        setMaxNumber(Number(event.target.value));
-    }
-
+    const getMinNumber = (event) => setMinNumber(Number(event.target.value));
+    const getMaxNumber = (event) => setMaxNumber(Number(event.target.value));
+    
     function generateNumber() {
         maxNumber > minNumber ? setRandomNumber(Math.round(Math.random() * (maxNumber - minNumber)) + minNumber) : setRandomNumber("Invalid");
         setMinNumber("");
