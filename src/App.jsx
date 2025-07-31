@@ -21,6 +21,7 @@ import DigitalClock from './DigitalClock/DigitalClock.jsx'
 import ContextA from './Context/ContextA.jsx'
 import RandomNumGenerator from './RandomNumGenerator.jsx'
 import Ref from './useRef.jsx'
+import Stopwatch from './Stopwatch/Stopwatch.jsx'
 
 function App() {
 
@@ -76,6 +77,8 @@ function App() {
       <RandomNumGenerator />
       <hr />
       <Ref />
+      <hr />
+      <Stopwatch />
       <Footer/>
     </>
   );
