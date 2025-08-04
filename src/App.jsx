@@ -22,6 +22,7 @@ import ContextA from './Context/ContextA.jsx'
 import RandomNumGenerator from './RandomNumGenerator.jsx'
 import Ref from './useRef.jsx'
 import Stopwatch from './Stopwatch/Stopwatch.jsx'
+import IntersetionObser from './IntersectionOb/intersectionOB.jsx'
 
 function App() {
 
@@ -79,6 +80,8 @@ function App() {
       <Ref />
       <hr />
       <Stopwatch />
+      <hr />
+      <IntersetionObser />
       <Footer/>
     </>
   );
